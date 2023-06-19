@@ -1,0 +1,10 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+:root{
+     --color-bg: rgba(14,19,35,255);
+    --color-herobg :  rgba(132, 198, 211, 1);
+
+    --gradient-text:linear-gradient(90deg, rgba(103, 58, 183, 1) 0%, rgba(76, 175, 80, 1) 50%, rgba(205, 220, 57, 1) 100%);
+    --color-cont1:#dbbda8;
+    --color-cont2:#b9c1ff;
+    --color-cont3:#1a1e2b;
+}

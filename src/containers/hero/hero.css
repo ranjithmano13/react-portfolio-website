@@ -1,0 +1,112 @@
+.hero-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-herobg);
+
+}
+.hero-section::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 240px;
+    height: 7px;
+    top: 0em;
+    right: 0;
+    margin: 0em 2em;
+    border-bottom: 150px solid var(--color-herobg);
+    border-left: 100px solid transparent;
+    z-index: -1;
+}
+
+.hero-section main{
+    flex: 1;
+}
+
+.hero-section aside{
+    position: relative;
+    flex: 0.5;
+    width: 100%;
+    padding: 2em 1em;
+    background-color: var(--color-bg);
+}
+
+.hero-section aside h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFF;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+.hero-section h1{
+    color: #000;
+    font-size: 64px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.container::after{
+    display: block;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 8px;
+    border-radius: 10px;
+    right: 10px;
+    top: 30px;
+    background: var(--color-cont1);
+}
+.container::before{
+    display: block;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 8px;
+    border-radius: 10px;
+    right: 10px;
+    top: 60px;
+    background: var(--color-cont2);
+}
+
+.social-card{
+    background: var(--color-cont1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-card-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5em;
+    gap: 1em;
+}
+
+.social-card-list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    font-size: 28px;
+    line-height: 1.5em;
+    font-family: "poppins",sans-serif;
+    color: #FFFF;
+    font-weight: 500;
+}
